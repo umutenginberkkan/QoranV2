@@ -21,7 +21,7 @@ type PopupState = {
 } | null
 
 function buildMufredatPageSrc(page: number) {
-  return `/books/mufredat/jpg/${String(page - 1).padStart(4, "0")}.jpg`
+  return `/books/mufredat/${String(page - 1).padStart(4, "0")}.jpg`
 }
 
 
